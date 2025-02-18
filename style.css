@@ -1,28 +1,32 @@
+:root{
+    --login-primary-color: #0f172a; 
+}
+
 html{
-    background-color: #0f172a;
-    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin: 0;
+    background-color: var(--login-primary-color);
     flex-direction: column;
 }
 
-.login-main {
-    align-items: center;
-    justify-content: center;
-    
+.form-main{
+    width: 80%;
+    max-width: 32rem;
     background-color: white;
-    color: #162340;
-    padding: 3em 2em;
-    max-width: 31.25em;
-    min-width: 31.25em;
-    min-height: 15.625em;
+}
+
+.fieldset-form{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: .25em
 }
 
 .title-form {
