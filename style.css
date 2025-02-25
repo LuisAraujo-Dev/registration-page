@@ -92,5 +92,25 @@ body {
     font-size: .85rem;
     flex-grow: 1;
     text-align: right;
+    text-decoration: none;
 }
 
+footer{
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+}
+    
+
+.footer-social{
+    display: flex;
+    gap: 2em;
+}
+
+.text-footer{
+    font-size: 18px;
+}
