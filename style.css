@@ -20,6 +20,7 @@ body {
     width: 80%;
     max-width: 32rem;
     background-color: white;
+    border-radius: 5px;
 }
 
 .fieldset-form{
@@ -27,7 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: .25em;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
 }
 
 .title-form {
