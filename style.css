@@ -65,17 +65,23 @@ body {
 }
 
 .btns {
-    display: flex;
-  gap: 5px;
-  border-radius: 2px;
-  width: 45%;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: .8rem 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
 
-.btn {
-    width: 50%;
-    border: 1px solid transparent;
-    background-color: white;
-    text-transform: uppercase;
-    font-size: 1em;
-    pad: 1px;
+.btn-primary{
+    background-color: var(--login-primary-color);
+    color: white;
 }
+
+.btn-secondary {
+    color: var(--login-primary-color);
+}
+
